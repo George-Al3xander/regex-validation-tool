@@ -1,0 +1,19 @@
+{
+    "name": "regex-validation-tool",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "lint": "tsc",
+        "compile": "tsc && tsc --build tsconfig.es5.json"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.26.2",
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.2"
+    }
+}
