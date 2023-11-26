@@ -2,13 +2,24 @@
     "name": "regex-validation-tool",
     "license": "MIT",
     "description": "Validate basic user info or manually specified properties using regex.",
-    "repository": {"type": "git","url": "https://github.com/George-Al3xander/regex-validation-tool"},
-    "keywords": ["typescript", "regex", "validation", "javascript"],
-    "author": {"name": "George V.", "url": "https://github.com/George-Al3xander"},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/George-Al3xander/regex-validation-tool"
+    },
+    "keywords": [
+        "typescript",
+        "regex",
+        "validation",
+        "javascript"
+    ],
+    "author": {
+        "name": "George V.",
+        "url": "https://github.com/George-Al3xander"
+    },
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
-    "version": "0.0.2",        
+    "version": "0.0.3",
     "scripts": {
         "build": "tsup src/index.ts --format cjs,esm --dts",
         "lint": "tsc",
