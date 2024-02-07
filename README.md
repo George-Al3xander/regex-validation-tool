@@ -67,15 +67,10 @@ const bool = notBlank("test") // bool == true
 # Password levels
 
   
-
 | Level | Description |
-
-| ------- | ---
-
+| -- | --|
 | Low | A password between 7 to 16 characters contains only characters, numeric digits, and an underscore, and the first character must be a letter.|
-
 |Medium| Password must contain six characters or more and has at least one lowercase and one uppercase alphabetical character or has at least one lowercase and one numeric character or has at least one uppercase and one numeric character. |
-
 |Strong| A password between 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character |
 
   
